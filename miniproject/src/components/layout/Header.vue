@@ -7,7 +7,7 @@
 export default {
     data() {
         return {
-            menuItm : ['Home','About']
+            menuItm : ['Home','About','통계']
         }
     },
 }
