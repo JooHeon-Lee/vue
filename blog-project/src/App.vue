@@ -1,5 +1,7 @@
 <template>
+
   <div>
+    <Header />
     <h1>{{title}}</h1>
 
     <HomeComponent />
@@ -10,10 +12,12 @@
 
 <script>
 import HomeComponent from "./Home"
+import Header from "./components/layout/Header.vue"
 
   export default {
     components : {
-      HomeComponent
+      HomeComponent,
+      Header
     },
     data() {
       return {
