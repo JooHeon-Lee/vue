@@ -2,21 +2,21 @@
 
   <div>
     <Header />
-    <h1>{{title}}</h1>
-
+<!-- 
     <HomeComponent />
-    <AppStatus />
+    <AppStatus /> -->
+    <router-view></router-view>
   </div>
 
 </template>
 
 <script>
-import HomeComponent from "./Home"
+// import HomeComponent from "./Home"
 import Header from "./components/layout/Header.vue"
 
   export default {
     components : {
-      HomeComponent,
+      // HomeComponent,
       Header
     },
     data() {
