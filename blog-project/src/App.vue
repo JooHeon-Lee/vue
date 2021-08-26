@@ -2,9 +2,9 @@
 
   <div>
     <Header />
-<!-- 
+
     <HomeComponent />
-    <AppStatus /> -->
+    <AppStatus /> 
     <router-view></router-view>
   </div>
 
